@@ -2,7 +2,7 @@
 import mongoose from "mongoose";
 import Contact from "../Model/Contact";
 class myController {
-  static async getAll(req, res) {
+  static async getProfession(req, res) {
     const User = mongoose.model("Users", {}, "Users");
 
     const user = await User.find();
