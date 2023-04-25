@@ -1,3 +1,7 @@
+Local Requests
 GET:http://localhost:8080/contact/6447b66dbe51192be38d3ac0
 
-GET: http://localhost:8080/contacts
+GET:http://localhost:8080/contacts
+Render Requests
+GET:https://assignment2-lfh4.onrender.com/contacts
+GET:https://assignment2-lfh4.onrender.com/6447b66dbe51192be38d3ac0
