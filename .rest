@@ -1,11 +1,23 @@
 # Local Requests
 
-### GET: <http://localhost:8080/contact/6447b66dbe51192be38d3ac0>
+### GET: <http://localhost:8080/contact/:id>
 
 ### GET: <http://localhost:8080/contacts>
+
+### POST: <http://localhost:8080/contacts>
+
+### PUT: <http://localhost:8080/contact/:id>
+
+### DELETE: <http://localhost:8080/contact/:id>
 
 ### Render Requests
 
 ### GET: <https://assignment2-lfh4.onrender.com/contacts>
 
-### GET: <https://assignment2-lfh4.onrender.com/6447b66dbe51192be38d3ac0>
+### GET: <https://assignment2-lfh4.onrender.com/contact/:id>
+
+### POST: <https://assignment2-lfh4.onrender.com/contacts>
+
+### PUT: <https://assignment2-lfh4.onrender.com/contact/:id>
+
+### DELETE: <https://assignment2-lfh4.onrender.com/contact/:id>
