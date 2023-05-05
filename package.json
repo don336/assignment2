@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon --exec babel-node src/routes/index.js",
-    "dev": "env-cmd -f ./config/dev.env nodemon --exec babel-node src/routes/index.js"
+    "dev": "env-cmd -f ./config/dev.env nodemon --exec babel-node src/routes/index.js",
+    "lint": "eslint ./src",
+    "lint:fix": "eslint --fix ./src"
   },
   "repository": {
     "type": "git",
@@ -26,9 +28,21 @@
   "devDependencies": {
     "@babel/cli": "^7.21.0",
     "@babel/core": "^7.21.4",
+    "@babel/eslint-parser": "^7.21.8",
     "@babel/node": "^7.20.7",
     "@babel/preset-env": "^7.21.4",
     "@babel/runtime": "^7.21.0",
-    "env-cmd": "^10.1.0"
+    "env-cmd": "^10.1.0",
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-node": "^4.1.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "prettier": "^2.8.8"
   }
 }

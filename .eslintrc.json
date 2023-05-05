@@ -1,0 +1,32 @@
+{
+  "parser": "@babel/eslint-parser",
+  "plugins": ["babel", "prettier"],
+  "globals": {
+    "process": true,
+    "__dirname": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "requireConfigFile": false,
+    "es6": true,
+    "sourceType": "module"
+  },
+  "ignorePatterns": ["src/tests/**"],
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": ["eslint:recommended", "plugin:prettier/recommended"],
+  "overrides": [],
+  // "parserOptions": {
+  //   "ecmaVersion": "latest",
+  //   "sourceType": "module"
+  // },
+  "rules": {
+    "prettier/prettier": ["error"],
+    "new-cap": "off",
+    "camelcase": "off",
+    "no-console": ["warn", { "allow": ["debug", "error", "warn", "log"] }],
+    "no-unsupported-features": "off"
+  }
+}
