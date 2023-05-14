@@ -5,7 +5,7 @@ const doc = {
     title: 'Contact',
     description: 'This is a contact app',
   },
-  host: 'localhost:8080',
+  host: 'https://assignment2-lfh4.onrender.com',
   schemes: ['http'],
 };
 
